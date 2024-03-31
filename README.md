@@ -1,7 +1,6 @@
 # Proyecto Zona Horaria Mundial
-<hr>
 
-<h1>Descripcion del Proyecto</h1>
+<h2>Descripcion del Proyecto</h2>
 
 <p>Este proyecto fue creado con ReactJS para realizar una aplicación web que pueda mostrar la zona horaria en tiempo real. La app en su inicio tiene un listado de los continentes, así como también las ciudades pertenecientes a cada una de ellas. Al seleccionar un continente se despliega un listado de las ciudades disponible para obtener su zona horaria, al realizar <strong>'Click'</strong> en una ciudad, la app despliega la siguiente información:
   <ul>
@@ -11,7 +10,6 @@
     <li>Zona Horaria.</li>
   </ul></p>
 
-<hr>
 
 <h2>Tecnología utilizadas</h2>
 
