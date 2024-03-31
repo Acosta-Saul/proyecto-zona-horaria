@@ -1,8 +1,27 @@
-# React + Vite
+# Proyecto Zona Horaria Mundial
+<hr>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>Descripcion del Proyecto</h1>
 
-Currently, two official plugins are available:
+<p>Este proyecto fue creado con ReactJS para realizar una aplicación web que pueda mostrar la zona horaria en tiempo real. La app en su inicio tiene un listado de los continentes, así como también las ciudades pertenecientes a cada una de ellas. Al seleccionar un continente se despliega un listado de las ciudades disponible para obtener su zona horaria, al realizar <strong>'Click'</strong> en una ciudad, la app despliega la siguiente información:
+  <ul>
+    <li>Localización.</li>
+    <li>Fecha.</li>
+    <li>Día de la Semana.</li>
+    <li>Zona Horaria.</li>
+  </ul></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<hr>
+
+<h2>Tecnología utilizadas</h2>
+
+<p>Se utilizaron las siguientes tecnologias para el desarrollo de este proyecto</p>
+
+<ul>
+  <li>ReactJS</li>
+  <li>Vite</li>
+</ul>
+
+<h2>API Zona Horaria</h2>
+
+<p>La<strong> Api </strong> consumida para este proyecto fue: https://timeapi.io/ </p>
