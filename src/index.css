@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgb(30, 220, 219);
+  background: linear-gradient(180deg, rgba(30, 220, 219, 1) 0%, rgba(6, 47, 107, 1) 100%);
+}
+
+.container {
+  width: 85vw;
+  height: 65vh;
+  background-color: rgb(39, 39, 39);
+  box-shadow: 0 0 6px 1px black;
+  display: flex;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Cont {
+  width: 50%;
+}
+
+.image {
+  width: 50%;
+  background-image: url(./assets/img/mundi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.entry {
+  margin: 0 20px;
+}
+
+select{
+  margin-bottom: 10px;
+}
+
+.city{
+  width: 100%;
+  height: 35vh;
+  background-color: rgb(255, 255, 255);
+  overflow-y: auto;
+  border-radius: 8px;
+  color:black
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  border-bottom: 2px solid rgb(212, 212, 212);
+  padding: 10px;
+  transition: .2s;
+}
+
+li:hover{
+  background-color: rgb(60, 122, 222);
+  cursor: pointer;
+}
+
+.timeZone{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: rgb(255, 255, 255);
+}
+
+
+.inf{
+  text-align: center;
+  font-size: 32px;
+}
+
+.informationTimeZone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  width: 520px;
+  height: 340px;
+  background-color: rgb(33, 33, 33);
+
+}
