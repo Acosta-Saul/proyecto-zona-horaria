@@ -20,6 +20,7 @@
 <ul>
   <li>ReactJS</li>
   <li>Vite</li>
+  <li>Bootstrap5</li>
 </ul>
 
 <h2>API Zona Horaria</h2>
